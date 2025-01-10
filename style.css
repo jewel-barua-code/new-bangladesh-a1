@@ -41,3 +41,65 @@ body{
 .header-image{
     width: 475px;
 }
+
+/* Shared Styles */
+
+.secondary-title{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+}
+.secondary-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+/* Main Section */
+
+.card-container{
+    display: flex;
+    gap: 30px;
+    
+}
+.card-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 35px;
+    border-radius: 16px;
+}
+
+.card-2{
+    background-color: rgba(198, 228, 214, 1);
+    padding: 35px;
+    border-radius: 16px;
+}
+
+.card-3{
+    background-color: rgba(247, 235, 207, 1);
+    padding: 35px;
+    border-radius: 16px;
+}
+
+.card-btn-1{
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #5490F5;
+    color: white;
+}
+.card-btn-2{
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #09A15C;
+    color: white;
+}
+
+.card-btn-3{
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FFC239;
+    color: white;
+}
