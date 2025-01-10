@@ -1,4 +1,43 @@
+body{
+        max-width: 1600px;
+        margin: 0 auto;
+}
+
+/* Font Styles */
+.font-styles{
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 /* Header Styles */
 .header-container{
     background-color: #C6E4D6;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    border-radius: 24px;
+}
+
+.header-content{
+    max-width: 600px;
+}
+.header-title-top{
+    color:rgba(14, 14, 14, 0.5);
+    font-size: 30px;
+}
+.header-title-main{
+    color: rgba(14, 14, 14, 1);
+    font-size: 56px;
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+}
+.header-image{
+    width: 475px;
 }
