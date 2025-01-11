@@ -40,12 +40,12 @@ nav ul{
     display: flex;
     justify-content: space-between;
     border-radius: 24px;
+    align-items: center;
+}
+.header-content{
+    margin-left: 59px;
 }
 
-.header-content{
-    width: 650px;
-    padding: 60px;
-}
 .header-title-top{
     color:rgba(14, 14, 14, 0.5);
     font-size: 30px;
@@ -63,7 +63,7 @@ nav ul{
     border: none;
 }
 .header-image{
-    width: 474px;
+    padding: 50px;
 }
 
 /* Shared Styles */
@@ -161,19 +161,34 @@ nav ul{
 /* Donation Container */
 .donation-container{
     text-align: center;
+    padding: 0px 70px 0px 70px; 
 }
-
-.donation-amount-container{
+.donation-container h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.donation-container p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.donation-card-container{
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
 }
-
-.donation-amount{
-    background-color: #C6E4D6;
-    padding: 40px;
+.donation-card{
+    background-color: #FFFFFF;
+    width: 240px;
+    height: 128px; 
     border-radius: 16px;
 }
-
+.donation-card p{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.donation-card:hover{
+    background-color: #C6E4D6;
+}
 /* Subscription Section */
 
 .subscription-container{
@@ -182,6 +197,10 @@ nav ul{
     border-radius: 24px;
     padding: 100px;
     margin-top: 80px;
+}
+
+input{
+    width: 50%;
 }
 .footer-container{
     text-align: center;
