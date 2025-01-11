@@ -79,7 +79,13 @@ nav ul{
     line-height: 24px;
     font-weight: normal;
 }
+.btn-primary:hover{
+    background-color: red;
+}
 
+.card-btn-1:hover, .card-btn-2:hover, .card-btn-3:hover{
+    background-color: red;
+}
 /* Main Section */
 
 .card-container{
@@ -181,6 +187,9 @@ nav ul{
     width: 240px;
     height: 128px; 
     border-radius: 16px;
+}
+#selected{
+    background-color: #C6E4D6;
 }
 .donation-card p{
     font-size: 40px;
