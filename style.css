@@ -136,13 +136,14 @@ nav ul{
     padding: 24px 48px;
     margin-top: 32px;
 }
-.news-container{
-    padding: 48px;
-    background-color: white;
-    border-radius: 24px;
-}
 .news{
     display: flex;
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+}
+#news-feed{
+    margin-top: 50px;
 }
 .news-title{
     font-size: 32px;
@@ -230,9 +231,7 @@ nav ul{
     padding: 11px 20px;
     margin-right: -10px;
 }
-.subscription-input{
-    
-}
+
 .subscribe-btn{
     background-color: #006A50;
     color: #FFFFFF;
@@ -243,6 +242,7 @@ nav ul{
 .footer-container{
     text-align: center;
     background-color: white;
+    width: 100%;
 }
 .social img{
     margin-left:20px;
