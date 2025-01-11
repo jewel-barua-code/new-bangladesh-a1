@@ -190,17 +190,13 @@ nav ul{
     background-color: #C6E4D6;
 }
 
-input{
+.donation-input{
     border: none;
     padding: 0px 20px 20px 0px; 
     margin-bottom: 32px;
     width: 100%
 }
 
-input[type="text"]::placeholder {
-    margin-top: 20px;
-    text-align: center; 
-} 
 .donation-input-container{
     text-align: center;
     margin-top: 20px;
@@ -227,8 +223,22 @@ input[type="text"]::placeholder {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
-.subscription-button{
-    display: flex;
+.subscribe{
+    background-color: #FFFFFF;
+    border: none;
+    width: 50%;
+    padding: 11px 20px;
+    margin-right: -10px;
+}
+.subscription-input{
+    
+}
+.subscribe-btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 0px 8px 8px 0px;
 }
 .footer-container{
     text-align: center;
