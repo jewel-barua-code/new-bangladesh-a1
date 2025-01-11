@@ -1,6 +1,8 @@
 body{
         max-width: 1600px;
-        margin: 0 auto;
+        margin-left: 160px;
+        margin-right: 160px;
+        background-color: #F1F1F3;
 }
 
 /* Font Styles */
@@ -11,16 +13,38 @@ body{
 }
 
 /* Header Styles */
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.btn{
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: semibold;
+}
 .header-container{
     background-color: #C6E4D6;
     display: flex;
-    padding: 100px;
     justify-content: space-between;
     border-radius: 24px;
 }
 
 .header-content{
-    max-width: 600px;
+    width: 650px;
+    padding: 60px;
 }
 .header-title-top{
     color:rgba(14, 14, 14, 0.5);
@@ -28,7 +52,7 @@ body{
 }
 .header-title-main{
     color: rgba(14, 14, 14, 1);
-    font-size: 56px;
+    font-size: 45px;
     font-weight: bold;
 }
 .btn-primary{
@@ -39,7 +63,7 @@ body{
     border: none;
 }
 .header-image{
-    width: 475px;
+    width: 474px;
 }
 
 /* Shared Styles */
@@ -103,10 +127,18 @@ body{
     background-color: #FFC239;
     color: white;
 }
+/* Qoute section */
+.qoute-container{
+    background-image: url('./resources/quote-bg.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 24px;
+    padding: 24px 48px;
+    margin-top: 32px;
+}
 .news-container{
-    
     padding: 48px;
-    background-color: gray;
+    background-color: white;
     border-radius: 24px;
 }
 .news{
@@ -153,6 +185,7 @@ body{
 }
 .footer-container{
     text-align: center;
+    background-color: white;
 }
 .social img{
     margin-left:20px;
