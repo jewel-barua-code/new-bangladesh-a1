@@ -189,18 +189,46 @@ nav ul{
 .donation-card:hover{
     background-color: #C6E4D6;
 }
+
+input{
+    border: none;
+    padding: 0px 20px 20px 0px; 
+    margin-bottom: 32px;
+    width: 100%
+}
+
+input[type="text"]::placeholder {
+    margin-top: 20px;
+    text-align: center; 
+} 
+.donation-input-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* Subscription Section */
 
 .subscription-container{
     background-color: #C6E4D6;
     text-align: center;
     border-radius: 24px;
-    padding: 100px;
+    padding-left: 265px;
+    padding-right: 265px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     margin-top: 80px;
 }
 
-input{
-    width: 50%;
+.subscription-title{
+    font-size: 40px;
+}
+
+.subscription-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.subscription-button{
+    display: flex;
 }
 .footer-container{
     text-align: center;
